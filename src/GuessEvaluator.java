@@ -2,8 +2,8 @@
  * GuessEvaluator evaluates a player's guess versus the secret code.
  *
  * It determines both:
- * - Exact matches (correct letter at the correct location).
- * - Partial matches (correct letter, incorrect location).
+ * Exact matches (correct letter at the correct location).
+ * Partial matches (correct letter, incorrect location).
  *
  * The logic contained within this class represents the core of the game,
  * and is completely independent of the user interface, thus allowing for

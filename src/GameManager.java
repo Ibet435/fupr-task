@@ -4,11 +4,11 @@ import java.util.Scanner;
  * GameManager manages the game's flow.
  *
  * Responsibilities:
- * - Generates the secret code
- * - Manages number of guesses and win/loss conditions
- * - Requests valid input from PlayerInput
- * - Uses GuessEvaluator to determine the amount of feed back
- * - Displays the result on the console
+ * Generates the secret code
+ * Manages number of guesses and win/loss conditions
+ * Requests valid input from PlayerInput
+ * Uses GuessEvaluator to determine the amount of feed back
+ * Displays the result on the console
  *
  * This class has all the game flow logic, BUT it does NOT include low-level logic
  * (i.e. generating the code, validating input, determining what is a good or bad match).

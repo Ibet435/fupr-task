@@ -2,13 +2,7 @@ import java.util.Scanner;
 
 /**
  * PlayerInput manages all of the user's interaction with the application.
- *
- * By having PlayerInput handle everything that has to do with input,
- * we ensure that:
- * - The application does not crash from an error related to the user's input.
- * - The GameManager stays clean and focused on managing the flow of the game.
- * - Any changes to how the application accepts input are done within the PlayerInput class,
- * rather than throughout the rest of the application.
+
  */
 
 public class PlayerInput {
@@ -30,9 +24,9 @@ public class PlayerInput {
      * Will keep asking for a guess until a valid guess is provided by the player.
      *
      * Rules for determining a valid guess:
-     * - Exactly four (4) characters long.
-     * - Only use the letters A-F (upper case).
-     * - Case insensitive.
+     * Exactly four (4) characters long.
+     * Only use the letters A-F (upper case).
+     * Case insensitive.
      */
     public String readValidGuess()
     {
